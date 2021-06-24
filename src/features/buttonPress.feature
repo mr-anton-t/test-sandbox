@@ -19,7 +19,7 @@ Feature: Test button press
     Then I expect that element "#testKeyResponse" not contains the text "65"
     # Escape key
 
-  @TEST-1 @OPEN
+  @TEST-1 @MANUAL @OPEN
   Scenario: Test if element responds to button press
     Given the element "#testKeyResponse" not contains any text
     When I press "Escape"
