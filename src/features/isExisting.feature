@@ -10,7 +10,7 @@ Feature: Github test
     Then I expect that element ".octicon-mark-github" does exist
     And I expect that element ".some-other-element" does not exist
 
-  @TEST-2 @OPEN
+  @TEST-2 @MANUAL @OPEN
   Scenario: test
     Given one
     When ttt
