@@ -4,7 +4,7 @@ Feature: Github test
   I want to search for webdriverio repository
   And check if some elements are existing and others are not
 
-  @TEST-2 @OPEN
+  @TEST-2 @MANUAL @OPEN
   Scenario: open URL
     Given I open the url "https://github.com/webdriverio/cucumber-boilerplate"
     Then I expect that element ".octicon-mark-github" does exist
