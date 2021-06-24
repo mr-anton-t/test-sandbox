@@ -7,7 +7,7 @@ Feature: Test button press
   Background:
     Given I open the site "/"
 
-  @TEST-1 @OPEN
+  @TEST-1 @MANUAL @OPEN
   Scenario: Test if element responds to button press
     Given the element "#testKeyResponse" not contains any text
     When I press "a"
